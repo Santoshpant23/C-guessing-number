@@ -25,7 +25,7 @@ int main()
     printf("\t\t\tGame Time \n");
     printf("********************************************************\n");
 
-    printf("Here Computer guessd a number less then 100. \n Now it's your time to match the number in 7 moves.\n");
+    printf("Here, Computer guessed a number less than 100. \n Now it's your time to match the number in 7 moves.\n");
 
     while (n <= 7)
     {
@@ -44,11 +44,11 @@ int main()
             printf("\nYour Number is smaller. Enter a Greater Number --->");
         }
         else
-            printf("\nYour Number is Greater. Now enter a smaller Number --->");
+            printf("\nYour Number is Greater. Now, enter a smaller number --->");
 
         if (n > 7)
         {
-            printf("Sorry You Lose. Try Again for the nest time. Dimag laga bacca : :( ");
+            printf("Sorry You Lose. Try Again for the next time. Dimag laga bacca : :( ");
             printf("\nComputer gussed a %d Number ", called);
             break;
         }
